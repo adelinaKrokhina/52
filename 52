@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .square{
+            width: 300px;
+            height: 300px;
+            background: red;
+            margin-top: 50px;
+        }
+        .square:hover{
+            background: green;
+        }
+    </style>
+</head>
+<body>
+    <button onclick="helloFunc()">Привет</button>
+
+    <div class="square">
+
+    </div>
+</body>
+<script type="text/javascript">
+    function helloFunc() {
+        alert("Привет мир")
+    }
+</script>
+</html>
